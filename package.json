@@ -1,10 +1,8 @@
 {
-    "name": "theme-omni",
+    "name": "theme-omni-customized",
     "version": "1.0.10",
-    "displayName": "Omni Theme",
-    "homepage": "https://rocketseat.com.br/",
-    "description": "A dark theme made by Rocketseat",
-    "publisher": "rocketseat",
+    "displayName": "Omni Theme Customized",
+    "description": "A dark theme made by Rocketseat, and modified by me, for personal use.",
     "license": "MIT",
     "scripts": {
         "build": "node ./scripts/build.js",
@@ -14,16 +12,11 @@
         "vsce-publish": "vsce publish"
     },
     "maintainers": [
-        "Diego Fernandes <diego.schell.fgmail.com>",
-        "Luke Morales <lukemorales@live.com>",
-        "João Pedro Schmitz <hey@joaopedro.dev>"
+        "Filipe Lima <datsfilipe@gmail.com>"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/getomni/visual-studio-code.git"
-    },
-    "bugs": {
-        "url": "https://github.com/getomni/visual-studio-code/issues"
+        "url": "https://github.com/datsfilipe/vs-code-omni-customized.git"
     },
     "engines": {
         "vscode": "^1.13.0"
@@ -33,7 +26,7 @@
     ],
     "keywords": [
         "omni",
-        "rocketseat",
+        "dark",
         "theme",
         "color-theme"
     ],
@@ -45,7 +38,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Omni",
+                "label": "Omni-Customized",
                 "uiTheme": "vs-dark",
                 "path": "./theme/omni.json"
             }
@@ -59,7 +52,6 @@
     },
     "__metadata": {
         "id": "4e44877c-1c8d-4f9c-ba86-1372d0fbeeb1",
-        "publisherDisplayName": "Omni",
-        "publisherId": "fbb3d024-f8f2-460c-bdb5-99552f6d8c4b"
+        "publisherDisplayName": "Omni-Customized"
     }
 }

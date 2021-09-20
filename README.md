@@ -17,26 +17,27 @@
 </p>
 
 <p align="center">
+  <a href="#description">Description</a> •
   <a href="#install">Install</a> •
-  <a href="#team">Team</a> •
+  <a href="#original theme">Original Theme</a> •
   <a href="#license">License</a>
 </p>
 
 <p align="center">
-  <img alt="Omni screnshoot for Visual Studio Code" src="https://i.imgur.com/vUQNEXV.png">
+  <img alt="Omni Customized screnshoot for Visual Studio Code" src="https://imgur.com/NVjKWJh.png">
 </p>
+
+## Description
+
+This is a fork of Omni Theme for visual-studio-code by Rocketseat with color changes for personal use.
 
 ## Install
 
 All instructions can be found at [INSTALL.md](./INSTALL.md).
 
-## Team
+## Original Theme
 
-This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/getomni/visual-studio-code/graphs/contributors).
-
-| [![Diego Fernandes](https://github.com/diego3g.png?size=100)](https://github.com/diego3g) | [![Luke Morales](https://github.com/lukemorales.png?size=100)](https://github.com/lukemorales) | [![João Pedro Schmitz](https://github.com/jpedroschmitz.png?size=100)](https://github.com/jpedroschmitz) |
-| ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| [Diego Fernandes](https://github.com/diego3g)                                             | [Luke Morales](https://github.com/lukemorales)                                                 | [João Pedro](https://github.com/jpedroschmitz)                                                         |
+You can find the original visual-studio-code theme of Omni [here](https://github.com/getomni/visual-studio-code).
 
 ## License
 

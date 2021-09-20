@@ -1,16 +1,14 @@
-name: Omni
-author: Rocketseat
+name: Omni Customized
+author: dtsf
 maintainers:
-  - Diego Fernandes <diego.schell.f@gmail.com>
-  - Luke Morales <lukemorales@live.com>
-  - João Pedro Schmitz <hey@joaopedro.dev>
-semanticClass: theme.omni
+  - Filipe Lima <datsfilipe@gmail.com>
+semanticClass: theme.omni.customized
 omni:
   base:
-    - &BG                   '#191622'
+    - &BG                   '#191919'
     - &FG                   '#E1E1E6'
     - &SELECTION            '#41414D'
-    - &COMMENT              '#5A4B81'
+    - &COMMENT              '#564f70'
     - &CYAN                 '#988bc7'
     - &GREEN                '#67e480'
     - &ORANGE               '#E89E64'
@@ -19,7 +17,7 @@ omni:
     - &RED                  '#E96379'
     - &YELLOW               '#e7de79'
   ansi:
-    - &COLOR0               '#201B2D'
+    - &COLOR0               '#161616'
     - &COLOR1               '#FF79C6'
     - &COLOR3               '#e7de79'
     - &COLOR2               '#67e480'
@@ -45,10 +43,10 @@ omni:
     - &WHITE                '#E1E1E6'
     - &TAB_DROP_BG          '#44475A70'
     # UI Variants
-    - &BGLighter            '#252131'
-    - &BGLight              '#201B2D' # HSV (230   , 25.71, 27.45)
-    - &BGDark               '#13111B' # HSV (234.55, 25   , 17.25)
-    - &BGDarker             '#15121E' # HSV (234.55, 25   , 13   )
+    - &BGLighter            '#212121'
+    - &BGLight              '#1e1e1e' # HSV (230   , 25.71, 27.45)
+    - &BGDark               '#141414' # HSV (234.55, 25   , 17.25)
+    - &BGDarker             '#161616' # HSV (234.55, 25   , 13   )
 
 # User Interface (more info: https://code.visualstudio.com/docs/getstarted/theme-color-reference)
 colors:
@@ -142,7 +140,7 @@ colors:
 
   # Activity Bar
   activityBar.background: *BGLight                                              # Activity Bar background color
-  activityBar.inactiveForeground: *COMMENT                                      # Activity bar item foreground color when it is inactive
+  activityBar.inactiveForeground: *COMMENT                                       # Activity bar item foreground color when it is inactive
   activityBar.dropBackground:                                                   # Drag and drop feedback color for the Activity Bar items
   activityBar.foreground: *FG                                                   # Activity bar foreground color (for example used for the icons)
   activityBar.border:                                                           # Activity Bar border color with the Side Bar
