@@ -2,6 +2,6 @@
 # https://help.github.com/en/articles/about-code-owners
 
 *            @datsfilipe
-             @diego3g @lukemorales
+*            @diego3g @lukemorales
 .github/*    @jpedroschmitz
 *.md         @jpedroschmitz
