@@ -19,6 +19,9 @@
         "type": "git",
         "url": "https://github.com/datsfilipe/vs-code-omni-customized.git"
     },
+    "bugs": {
+        "url": "https://github.com/datsfilipe/vs-code-omni-customized/issues"
+    },
     "engines": {
         "vscode": "^1.13.0"
     },
