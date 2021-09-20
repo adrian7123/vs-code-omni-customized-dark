@@ -4,6 +4,7 @@
     "displayName": "Omni Theme Customized",
     "description": "A dark theme made by Rocketseat, and modified by me, for personal use.",
     "license": "MIT",
+    "publisher": "dtsf",
     "scripts": {
         "build": "node ./scripts/build.js",
         "lint": "node ./scripts/lint.js",
@@ -26,6 +27,7 @@
     ],
     "keywords": [
         "omni",
+        "omni customization",
         "dark",
         "theme",
         "color-theme"
@@ -51,7 +53,7 @@
         "vsce": "^1.75.0"
     },
     "__metadata": {
-        "id": "4e44877c-1c8d-4f9c-ba86-1372d0fbeeb1",
-        "publisherDisplayName": "Omni-Customized"
+        "id": "dtsf",
+        "publisherDisplayName": "datsfilipe"
     }
 }

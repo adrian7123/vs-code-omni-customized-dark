@@ -1,8 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="https://storage.googleapis.com/golden-wind/github/omni/omni.png" alt="Omni Logo" width="100">
-  <br>
-  Omni for <a href="https://code.visualstudio.com/">Visual Studio Code</a>
+  Omni Customized for <a href="https://code.visualstudio.com/">Visual Studio Code</a>
   <br>
 </h1>
 
