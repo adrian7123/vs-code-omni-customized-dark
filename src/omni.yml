@@ -1,11 +1,11 @@
-name: Omni Customized
+name: Omni Customized Dark
 author: dtsf
 maintainers:
-  - Filipe Lima <datsfilipe@gmail.com>
-semanticClass: theme.omni.customized
+  - Adrian Bueno <adian.s.bueno1@gmail.com>
+semanticClass: theme.omni.customized-dark
 omni:
   base:
-    - &BG                   '#191919'
+    - &BG                   '#000000'
     - &FG                   '#E1E1E6'
     - &SELECTION            '#41414D'
     - &COMMENT              '#564f70'
@@ -17,7 +17,7 @@ omni:
     - &RED                  '#E96379'
     - &YELLOW               '#e7de79'
   ansi:
-    - &COLOR0               '#161616'
+    - &COLOR0               '#000000'
     - &COLOR1               '#FF79C6'
     - &COLOR3               '#e7de79'
     - &COLOR2               '#67e480'
@@ -38,15 +38,15 @@ omni:
     - &TEMP_QUOTES          '#e7de79'
     - &TEMP_PROPERTY_QUOTES '#7159C1'
   other:
-    - &LineHighlight        '#44475A75'
-    - &NonText              '#FFFFFF1A'
-    - &WHITE                '#E1E1E6'
-    - &TAB_DROP_BG          '#44475A70'
-    # UI Variants
-    - &BGLighter            '#212121'
-    - &BGLight              '#1e1e1e' # HSV (230   , 25.71, 27.45)
-    - &BGDark               '#141414' # HSV (234.55, 25   , 17.25)
-    - &BGDarker             '#161616' # HSV (234.55, 25   , 13   )
+      - &LineHighlight        '#000000'
+      - &NonText              '#FFFFFF1A'
+      - &WHITE                '#E1E1E6'
+      - &TAB_DROP_BG          '#000000'
+      # UI Variants
+      - &BGLighter            '#000000'
+      - &BGLight              '#000000' # HSV (230   , 25.71, 27.45)
+      - &BGDark               '#000000' # HSV (234.55, 25   , 17.25)
+      - &BGDarker             '#000000' # HSV (234.55, 25   , 13   )
 
 # User Interface (more info: https://code.visualstudio.com/docs/getstarted/theme-color-reference)
 colors:

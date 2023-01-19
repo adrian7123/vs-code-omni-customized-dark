@@ -1,10 +1,10 @@
 {
-    "name": "theme-omni-customized",
-    "version": "1.0.10",
-    "displayName": "Omni Theme Customized",
-    "description": "A dark theme made by Rocketseat, and modified by me, for personal use.",
+    "name": "theme-omni-customized-dark",
+    "version": "1.0.0",
+    "displayName": "Omni Theme Customized Dark",
+    "description": "A Fork for Omni Theme Customized\nA dark theme made by Rocketseat, and modified by me, for personal use.",
     "license": "MIT",
-    "publisher": "dtsf",
+    "publisher": "adrian7123",
     "scripts": {
         "build": "node ./scripts/build.js",
         "lint": "node ./scripts/lint.js",
@@ -13,14 +13,14 @@
         "vsce-publish": "vsce publish"
     },
     "maintainers": [
-        "Filipe Lima <datsfilipe@gmail.com>"
+        "Adrian Bueno <adrian.s.bueno1@gmail.com>"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/datsfilipe/vs-code-omni-customized.git"
+        "url": "https://github.com/adrian7123/vs-code-omni-customized-dark.git"
     },
     "bugs": {
-        "url": "https://github.com/datsfilipe/vs-code-omni-customized/issues"
+        "url": "https://github.com/adrian7123/vs-code-omni-customized-dark/issues"
     },
     "engines": {
         "vscode": "^1.13.0"
@@ -33,7 +33,8 @@
         "omni customization",
         "dark",
         "theme",
-        "color-theme"
+        "color-theme",
+        "omni dark"
     ],
     "icon": "icon.png",
     "galleryBanner": {
@@ -43,7 +44,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Omni-Customized",
+                "label": "Omni Customized Dark",
                 "uiTheme": "vs-dark",
                 "path": "./theme/omni.json"
             }

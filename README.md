@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  Omni Customized for <a href="https://code.visualstudio.com/">Visual Studio Code</a>
+  Omni Customized Dark for <a href="https://code.visualstudio.com/">Visual Studio Code</a>
   <br>
 </h1>
 
@@ -22,12 +22,12 @@
 </p>
 
 <p align="center">
-  <img alt="Omni Customized screnshoot for Visual Studio Code" src="https://imgur.com/NVjKWJh.png">
+  <img alt="Omni Customized screnshoot for Visual Studio Code" src="https://github.com/adrian7123/vs-code-omni-customized-dark/raw/main/icon.png">
 </p>
 
 ## Description
 
-This is a fork of Omni Theme for visual-studio-code by Rocketseat with color changes for personal use.
+This is a fork of Omni Theme Customized which is a fork of Omni Theme for Rocketseat visual-studio-code with color changes for personal use.
 
 ## Install
 
