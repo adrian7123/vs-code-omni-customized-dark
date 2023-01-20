@@ -3,8 +3,8 @@
 #### Install using Command Palette
 
 1.  Go to your visual studio code and press `Ctrl+Shift+P`;
-2.  Write `ext install dtsf.theme-omni-customized`;
-4.  Select the `install` option on popup to install.
+2.  Write `ext install adrian7123.theme-omni-customized-dark`;
+3.  Select the `install` option on popup to install.
 
 #### Activating theme
 

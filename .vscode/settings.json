@@ -5,5 +5,8 @@
         "editor.formatOnSave": false
     },
     "terminal.integrated.inheritEnv": true,
-    "terminal.integrated.shell.osx": "/bin/bash"
+    "terminal.integrated.shell.osx": "/bin/bash",
+    "yaml.schemas": {
+        "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/meta.json": "file:///e%3A/dev/Github/vs-code-omni-customized/src/omni.yaml"
+    }
 }

@@ -3,6 +3,7 @@ author: dtsf
 maintainers:
   - Adrian Bueno <adian.s.bueno1@gmail.com>
 semanticClass: theme.omni.customized-dark
+
 omni:
   base:
     - &BG                   '#000000'
@@ -50,7 +51,6 @@ omni:
 
 # User Interface (more info: https://code.visualstudio.com/docs/getstarted/theme-color-reference)
 colors:
-
   # Integrated Terminal Colors
   terminal.background: *BG
   terminal.foreground: *FG
