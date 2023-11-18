@@ -1,7 +1,7 @@
 {
     "name": "theme-omni-customized-dark",
-    "version": "1.0.0",
-    "displayName": "Omni Theme Customized Dark",
+    "version": "1.0.2",
+    "displayName": "Omni Dark",
     "description": "A Fork for Omni Theme Customized\nA dark theme made by Rocketseat, and modified by me, for personal use.",
     "license": "MIT",
     "publisher": "adrian7123",
@@ -47,6 +47,11 @@
                 "label": "Omni Customized Dark",
                 "uiTheme": "vs-dark",
                 "path": "./theme/omni.json"
+            },
+            {
+                "label": "Omni Customized Dark Light",
+                "uiTheme": "vs-dark",
+                "path": "./theme/omni-light.json"
             }
         ]
     },

@@ -9,12 +9,16 @@ if (!fs.existsSync(THEME_DIR)) {
 }
 
 module.exports = async () => {
-    const { base } = await generate();
+    const { base, base2 } = await generate();
 
     return Promise.all([
         fs.promises.writeFile(
             path.join(THEME_DIR, 'omni.json'),
             JSON.stringify(base, null, 4)
+        ),
+        fs.promises.writeFile(
+            path.join(THEME_DIR, 'omni-light.json'),
+            JSON.stringify(base2, null, 4)
         ),
     ]);
 };

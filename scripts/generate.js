@@ -34,9 +34,14 @@ module.exports = async () => {
         join(__dirname, '..', 'src', 'omni.yaml'),
         'utf-8'
     );
+    const yamlFile2 = await readFile(
+        join(__dirname, '..', 'src', 'omni-light.yaml'),
+        'utf-8'
+    );
 
     /** @type {Theme} */
     const base = load(yamlFile, { schema });
+    const base2 = load(yamlFile2, { schema });
 
     // Remove nulls and other falsy values from colors
     for (const key of Object.keys(base.colors)) {
@@ -44,8 +49,15 @@ module.exports = async () => {
             delete base.colors[key];
         }
     }
+    // Remove nulls and other falsy values from colors
+    for (const key of Object.keys(base2.colors)) {
+        if (!base2.colors[key]) {
+            delete base2.colors[key];
+        }
+    }
 
     return {
         base,
+        base2,
     };
 };
